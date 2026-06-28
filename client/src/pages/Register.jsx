@@ -45,7 +45,7 @@ const Register = () => {
               <label className="text-gray-600 text-xs font-semibold mb-2 block uppercase tracking-wider">Full Name</label>
               <input
                 type="text"
-                placeholder="Yatharth"
+                placeholder="Name"
                 className="input"
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
               />
